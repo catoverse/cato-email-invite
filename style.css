@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Font";
+  src: url("assets/fonts/medium.ttf");
+}
+
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: #505050;
+}
+
+body {
+  font-family: "Font";
+  font-size: 1.2rem;
+}
+
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  width: calc(100% - 1rem);
+  margin: 1rem auto;
+}
+
+.container > div{
+    margin-bottom: 1rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+li{
+    margin-left: 1.5rem;
+}
+
+.footer{
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 1px solid #9DAFB5;
+}
+
+.playstore{
+    width: 8rem;
+    text-align: center;
+}
+
+.playstore-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
